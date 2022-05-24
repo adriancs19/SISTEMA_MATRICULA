@@ -1,0 +1,245 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow-y: scroll;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent; /* Esto es para eliminar la marca azul del telefono */
+}
+
+.link {
+    color: blue;
+}
+
+    .link:checked {
+        color: darkblue;
+    }
+
+input {
+    outline: none;
+}
+
+/*===========================================================================================*/
+/* Fuentes */
+/*===========================================================================================*/
+html, body {
+    font-family: "Roboto", sans-serif;
+}
+
+.menuDiv, .menuBTN{
+    /*font-family: 'Anton', sans-serif;*/
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*=============================================================================================*/
+/* Menu TOP */
+/*=============================================================================================*/
+.menuDiv {
+    max-width: 100%;
+    margin: 0px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #0e0c28;
+    color: white;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+
+    .menuDiv span {
+        font-size: large;
+        vertical-align: middle;
+    }
+
+.menuBTN {
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+    vertical-align: middle;
+    box-sizing: border-box;
+    vertical-align: middle;
+    outline: none !important;
+    transition: background-color .1s,color .1s;
+    border-radius: 4px;
+    border: solid 2px #0e0c28;
+    background-color: #0e0c28;
+    color: gold;
+    transition: 0.35s;
+}
+
+    .menuBTN:hover {
+        color: white;
+        border-color: white;
+        /*-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #0e0c28;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: left;
+}
+
+    h1 {
+        color: white;
+        margin: 5px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+
+    .sidenav h5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1.2em;
+        font-weight: bolder;
+        margin: 0px;
+        background-color: #45e1fb;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .sidenav h6 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        font-size: 1em;
+        margin: 0px;
+        background-color: #45fbe5;
+        color: black;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .sidenav p {
+        font-size: small;
+        padding: 10px;
+        margin: 0px;
+        text-align: left;
+        color: gray;
+        background-color: #fafafa;
+        border-bottom: solid 1px;
+        border-bottom-color: gray;
+    }
+
+     a {
+        padding: 8px 8px 8px 32px;
+        font-size: small;
+        color: white;
+        transition: 0.3s;
+        border: solid 1px;
+        border-color: transparent;
+    }
+
+        .sidenav a:hover {
+            border-color: #fb455b;
+            color: #fb455b;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 35px;
+        color: #fb455b;
+        font-weight: bold;
+    }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+        width: 250px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+/*===========================================================================================*/
+
+
+footer {
+    font-size: smaller;
+    text-align: right;
+}
+
+
+.middleDiv {
+    padding: 5%;
+}
+
+
+    .middleDiv, h4 {
+        text-align: left;
+    }
+
+    .middleDiv, h4 {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+
+/*===========================================================================================*/
+/* Version de telefono */
+/*===========================================================================================*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    ...
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    ...
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    ...
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    ...
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .sidenav {
+        width: 0px;
+    }
+
+    .middleDiv {
+        position: inherit !important;
+    }
+
+        .middleDiv h1, h2, h3, h4 {
+            text-align: left;
+        }
+
+    footer {
+        text-align: center;
+    }
+}

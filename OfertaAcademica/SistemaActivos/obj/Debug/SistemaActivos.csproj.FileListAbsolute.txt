@@ -1,0 +1,126 @@
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\SistemaActivos.dll.config
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\SistemaActivos.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\SistemaActivos.pdb
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\csc.exe
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\csc.exe.config
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\csc.rsp
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\csi.exe
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\csi.rsp
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\System.AppContext.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\vbc.exe
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\vbc.exe.config
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\vbc.rsp
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\BusinessLogic.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\DataBase.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\Acceso.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\BusinessLogic.pdb
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\DataBase.pdb
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\bin\Acceso.pdb
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csprojAssemblyReference.cache
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csproj.CoreCompileInputs.cache
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csproj.CopyComplete
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.dll
+C:\Users\Josué Castro\source\repos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.pdb
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\SistemaActivos.dll.config
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\SistemaActivos.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\SistemaActivos.pdb
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\csc.exe
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\csc.exe.config
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\csc.rsp
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\csi.exe
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\csi.rsp
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\System.AppContext.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\vbc.exe
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\vbc.exe.config
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\vbc.rsp
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\VBCSCompiler.exe
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\BusinessLogic.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\DataBase.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\Acceso.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\BusinessLogic.pdb
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\DataBase.pdb
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\bin\Acceso.pdb
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csprojAssemblyReference.cache
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csproj.CoreCompileInputs.cache
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csproj.CopyComplete
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.dll
+C:\Users\adria\Desktop\Sistema de Activos\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.pdb
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\SistemaActivos.dll.config
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\SistemaActivos.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\SistemaActivos.pdb
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\csc.exe
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\csc.exe.config
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\csc.rsp
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\csi.exe
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\csi.rsp
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\System.AppContext.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\vbc.exe
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\vbc.exe.config
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\vbc.rsp
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\VBCSCompiler.exe
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\BusinessLogic.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\DataBase.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\Acceso.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\BusinessLogic.pdb
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\DataBase.pdb
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\bin\Acceso.pdb
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csprojAssemblyReference.cache
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csproj.CoreCompileInputs.cache
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.csproj.CopyComplete
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.dll
+C:\Users\adria\Desktop\ADMIN DE PROYECTOS\PROYECTO\Programable\SistemaActivos\SistemaActivos\obj\Debug\SistemaActivos.pdb

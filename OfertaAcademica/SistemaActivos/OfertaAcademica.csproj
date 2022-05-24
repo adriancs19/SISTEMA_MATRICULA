@@ -1,0 +1,426 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60CB7087-B8B5-4F3D-9C67-6C48110B8BBC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaActivos</RootNamespace>
+    <AssemblyName>SistemaActivos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44378</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\AjaxUsuario.aspx" />
+    <Content Include="AulaEditar.aspx" />
+    <Content Include="AulaLeer.aspx" />
+    <Content Include="Aulas.aspx" />
+    <Content Include="CargarCupos.aspx" />
+    <Content Include="CuposManuales.aspx" />
+    <Content Include="DirectorOferta.aspx" />
+    <Content Include="DirectorSolicitud.aspx" />
+    <Content Include="EdificioEditar.aspx" />
+    <Content Include="EdificioLeer.aspx" />
+    <Content Include="Edificios.aspx" />
+    <Content Include="Estudiante.aspx" />
+    <Content Include="GrupoAsignacion.aspx" />
+    <Content Include="GrupoCambiar.aspx" />
+    <Content Include="GrupoCambiarConfirmacion.aspx" />
+    <Content Include="GrupoEliminar.aspx" />
+    <Content Include="Grupos.aspx" />
+    <Content Include="Imagenes\Aulas.jpg" />
+    <Content Include="Imagenes\Cancelar.png" />
+    <Content Include="Imagenes\Cuc_Prinsipal.jpg" />
+    <Content Include="Imagenes\guardar.jpg" />
+    <Content Include="Imagenes\Horario.jpg" />
+    <Content Include="Imagenes\Horarios.jpg" />
+    <Content Include="Imagenes\logo_cuc.png" />
+    <Content Include="Imagenes\lupa.jpg" />
+    <Content Include="Imagenes\proveeduria.png" />
+    <Content Include="Imagenes\user.PNG" />
+    <Content Include="Imagenes\wave.png" />
+    <Content Include="index.aspx" />
+    <Content Include="InicioLogin.aspx" />
+    <Content Include="NomenclaturaAulas.aspx" />
+    <Content Include="OfertaAcademica.aspx" />
+    <Content Include="OfertaAutomatica.aspx" />
+    <Content Include="OfertaMacro.aspx" />
+    <Content Include="Profesor.aspx" />
+    <Content Include="Pruebas.aspx" />
+    <Content Include="res\css\Edificios\Edificios.css" />
+    <Content Include="res\css\Edificios\Insertar.css" />
+    <Content Include="res\css\Edificios\TargetaEdificio.css" />
+    <Content Include="res\css\Edificios\TargetasAulas.css" />
+    <Content Include="res\css\Edificios\TargetasMacro.css" />
+    <Content Include="res\css\fuentes.css" />
+    <Content Include="res\css\index.css" />
+    <Content Include="res\alertifyjs\alertify.js" />
+    <Content Include="res\alertifyjs\alertify.min.js" />
+    <Content Include="res\alertifyjs\css\alertify.css" />
+    <Content Include="res\alertifyjs\css\alertify.min.css" />
+    <Content Include="res\alertifyjs\css\alertify.rtl.css" />
+    <Content Include="res\alertifyjs\css\alertify.rtl.min.css" />
+    <Content Include="res\alertifyjs\css\themes\bootstrap.css" />
+    <Content Include="res\alertifyjs\css\themes\bootstrap.min.css" />
+    <Content Include="res\alertifyjs\css\themes\bootstrap.rtl.css" />
+    <Content Include="res\alertifyjs\css\themes\bootstrap.rtl.min.css" />
+    <Content Include="res\alertifyjs\css\themes\default.css" />
+    <Content Include="res\alertifyjs\css\themes\default.min.css" />
+    <Content Include="res\alertifyjs\css\themes\default.rtl.css" />
+    <Content Include="res\alertifyjs\css\themes\default.rtl.min.css" />
+    <Content Include="res\alertifyjs\css\themes\semantic.css" />
+    <Content Include="res\alertifyjs\css\themes\semantic.min.css" />
+    <Content Include="res\alertifyjs\css\themes\semantic.rtl.css" />
+    <Content Include="res\alertifyjs\css\themes\semantic.rtl.min.css" />
+    <Content Include="res\css\bootstrap.min.css" />
+    <Content Include="res\css\General.css" />
+    <Content Include="res\css\Menu\Login.css" />
+    <Content Include="res\css\Menu\Menu.css" />
+    <Content Include="res\css\modoOscuro.css" />
+    <Content Include="res\jQuery\jquery-ui.min.js" />
+    <Content Include="res\jQuery\jquery.min.js" />
+    <Content Include="res\js\alertify.js" />
+    <Content Include="res\js\arx.js" />
+    <Content Include="res\js\login.js" />
+    <Content Include="res\js\permisos.js" />
+    <Content Include="res\js\DesechoBodega.js" />
+    <Content Include="res\js\Proveduría.js" />
+    <Content Include="res\js\roles.js" />
+    <Content Include="VerHorarios.aspx" />
+    <Content Include="Vue.js\VueTargetas.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceso\CuposManuales.cs" />
+    <Compile Include="Ajax\AjaxUsuario.aspx.cs">
+      <DependentUpon>AjaxUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\AjaxUsuario.aspx.designer.cs">
+      <DependentUpon>AjaxUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AulaEditar.aspx.cs">
+      <DependentUpon>AulaEditar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AulaEditar.aspx.designer.cs">
+      <DependentUpon>AulaEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AulaLeer.aspx.cs">
+      <DependentUpon>AulaLeer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AulaLeer.aspx.designer.cs">
+      <DependentUpon>AulaLeer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aulas.aspx.cs">
+      <DependentUpon>Aulas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aulas.aspx.designer.cs">
+      <DependentUpon>Aulas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\CuposManuales.cs" />
+    <Compile Include="CargarCupos.aspx.cs">
+      <DependentUpon>CargarCupos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CargarCupos.aspx.designer.cs">
+      <DependentUpon>CargarCupos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CuposManuales.aspx.cs">
+      <DependentUpon>CuposManuales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CuposManuales.aspx.designer.cs">
+      <DependentUpon>CuposManuales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorOferta.aspx.cs">
+      <DependentUpon>DirectorOferta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DirectorOferta.aspx.designer.cs">
+      <DependentUpon>DirectorOferta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorSolicitud.aspx.cs">
+      <DependentUpon>DirectorSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DirectorSolicitud.aspx.designer.cs">
+      <DependentUpon>DirectorSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EdificioEditar.aspx.cs">
+      <DependentUpon>EdificioEditar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EdificioEditar.aspx.designer.cs">
+      <DependentUpon>EdificioEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EdificioLeer.aspx.cs">
+      <DependentUpon>EdificioLeer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EdificioLeer.aspx.designer.cs">
+      <DependentUpon>EdificioLeer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edificios.aspx.cs">
+      <DependentUpon>Edificios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edificios.aspx.designer.cs">
+      <DependentUpon>Edificios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Estudiante.aspx.cs">
+      <DependentUpon>Estudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Estudiante.aspx.designer.cs">
+      <DependentUpon>Estudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoAsignacion.aspx.cs">
+      <DependentUpon>GrupoAsignacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GrupoAsignacion.aspx.designer.cs">
+      <DependentUpon>GrupoAsignacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoCambiar.aspx.cs">
+      <DependentUpon>GrupoCambiar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GrupoCambiar.aspx.designer.cs">
+      <DependentUpon>GrupoCambiar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoCambiarConfirmacion.aspx.cs">
+      <DependentUpon>GrupoCambiarConfirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GrupoCambiarConfirmacion.aspx.designer.cs">
+      <DependentUpon>GrupoCambiarConfirmacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoEliminar.aspx.cs">
+      <DependentUpon>GrupoEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GrupoEliminar.aspx.designer.cs">
+      <DependentUpon>GrupoEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupos.aspx.cs">
+      <DependentUpon>Grupos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupos.aspx.designer.cs">
+      <DependentUpon>Grupos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InicioLogin.aspx.cs">
+      <DependentUpon>InicioLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioLogin.aspx.designer.cs">
+      <DependentUpon>InicioLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDirector.Master.cs">
+      <DependentUpon>MasterDirector.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterDirector.Master.designer.cs">
+      <DependentUpon>MasterDirector.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDistribucion.Master.cs">
+      <DependentUpon>MasterDistribucion.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterDistribucion.Master.designer.cs">
+      <DependentUpon>MasterDistribucion.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NomenclaturaAulas.aspx.cs">
+      <DependentUpon>NomenclaturaAulas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NomenclaturaAulas.aspx.designer.cs">
+      <DependentUpon>NomenclaturaAulas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OfertaAcademica.aspx.cs">
+      <DependentUpon>OfertaAcademica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OfertaAcademica.aspx.designer.cs">
+      <DependentUpon>OfertaAcademica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OfertaAutomatica.aspx.cs">
+      <DependentUpon>OfertaAutomatica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OfertaAutomatica.aspx.designer.cs">
+      <DependentUpon>OfertaAutomatica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OfertaMacro.aspx.cs">
+      <DependentUpon>OfertaMacro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OfertaMacro.aspx.designer.cs">
+      <DependentUpon>OfertaMacro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor.aspx.cs">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesor.aspx.designer.cs">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas.aspx.cs">
+      <DependentUpon>Pruebas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pruebas.aspx.designer.cs">
+      <DependentUpon>Pruebas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarterPage.Master.cs">
+      <DependentUpon>MarterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarterPage.Master.designer.cs">
+      <DependentUpon>MarterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerHorarios.aspx.cs">
+      <DependentUpon>VerHorarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerHorarios.aspx.designer.cs">
+      <DependentUpon>VerHorarios.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MarterPage.Master" />
+    <Content Include="MasterDirector.Master" />
+    <Content Include="MasterDistribucion.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{be551720-6462-4012-8e7d-2af7fc8333f3}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataBase\DataBase.csproj">
+      <Project>{d90c3c0c-6247-4389-9d6d-d52bfeb4e5b7}</Project>
+      <Name>DataBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53970</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44378/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

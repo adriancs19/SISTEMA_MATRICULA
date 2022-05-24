@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterDirector.master.cs" Inherits="SistemaActivos.MasterDirector" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Cache-control" content="public, max-age=31557600">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" type="text/css" href="res/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="res/css/fuentes.css">
+    <link rel="stylesheet" type="text/css" href="res/css/index.css">
+    <link href="res/css/Menu/Menu.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <div>
+	        <nav>
+		        <input type="checkbox" id="check">
+		        <label for="check" class="checkbtn" style="margin-top:20px">
+			        <i class="fas fa-bars"></i>
+		        </label>
+	        <label class="logo" style="color:#45e1fb"> <img style="width:80px;height:80px; background-color:antiquewhite; margin-bottom:10px; margin-top:20px; margin-right:10px" src="Imagenes/logo_cuc.png" />Director de Carrera</label>
+		        <ul style="margin-top:20px">	        
+			        <li><a class="active" href="DirectorSolicitud.aspx">Solicitudes Pendientes</a></li>
+                    <li><a class="active" href="DirectorOferta.aspx">Carga Acaédemica Registrada</a></li>
+                    <li><a class="active" href="InicioLogin.aspx">Salir</a></li>
+
+		        </ul>
+	        </nav>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+
+
